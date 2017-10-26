@@ -1,20 +1,13 @@
 <!DOCTYPE html>
 <html>
-
   <head>
-    <link rel="stylesheet" href="style.css">
+    <title>Practical Todos</title>
+    <link id="favicon" rel="icon" href="https://hyperdev.com/favicon.ico" type="image/x-icon">
   </head>
-
   <body>
     <h1>Todo List</h1>
-    
-    <!-- Add any event, multiple event listners 
-    <button id="displayTodosButton">Display Todos</button>
-    <button id="toggleAllButton">Toggle All</button>-->
-    
-    <!-- onclick is more specific-->
+
     <div>
-      <!--<button onclick="handlers.displayTodos()">Display Todos</button>-->
       <button onclick="handlers.toggleAll()">Toggle All</button>
     </div>
     
@@ -30,26 +23,13 @@
     </div>
     
     <div>
-      <button onclick="handlers.deleteTodo()">Delete</button>
-      <input id="deleteTodoPositionInput" type="number">
-    </div>
-    
-    <div>
       <button onclick="handlers.toggleCompleted()">Toggle Completed</button>
       <input id="toggleCompletedPositionInput" type="number">
     </div>
     
     <ul>
-      
     </ul>
     
-    <script src="script.js"></script>
+    <script src="/client.js"></script>
   </body>
-
 </html>
-
-
-
-
-
-
