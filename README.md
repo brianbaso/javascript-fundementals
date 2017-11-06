@@ -1,2 +1,1 @@
-# jstodo
-javascript tools from practicaljs tutorial watchandcode.com
+# Watch And Code
